@@ -1,5 +1,5 @@
 name: Test Web Server
-on: [push, workflow_dispatchg]
+on: [push, workflow_dispatch]
 jobs:
   test:
     runs-on: ubuntu-latest
