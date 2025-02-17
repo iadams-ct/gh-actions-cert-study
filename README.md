@@ -1,1 +1,0 @@
-# gh-actions-cert-study
