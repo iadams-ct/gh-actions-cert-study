@@ -57,6 +57,7 @@ jobs:
         id: build-website
         run: npm run build
       - name: Upload artifacts
+        if: 
         uses: actions/upload-artifact@v4
         with:
           name: dist-files
